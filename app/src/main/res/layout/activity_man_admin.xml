@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/adminbackground"
+    tools:context=".ManAdmin"
+
+    >
+
+    <Button
+        android:id="@+id/btn_trovetrangchu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đi vào trang chính"
+        android:layout_marginTop="220dp"
+        android:gravity="center"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_quantringuoidung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản trị người dùng"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btn_themtruyen"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Thêm truyện"
+        android:gravity="center"/>
+<!--    <Button-->
+<!--        android:layout_gravity="center"-->
+<!--        android:id="@+id/buttonThemtruyen"-->
+<!--        android:text="Thêm truyện"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"></Button>-->
+<!--    <ListView-->
+<!--        android:id="@+id/listviewAdmin"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"></ListView>-->
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:text="Về trang đăng nhặp"
+    android:id="@+id/dkdangnhap"
+    ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_xoatruyen"
+        android:text="Xóa truyện"
+        android:layout_marginTop="20dp"
+        ></Button>
+</LinearLayout>
